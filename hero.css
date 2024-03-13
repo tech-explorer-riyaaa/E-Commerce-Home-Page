@@ -1,0 +1,170 @@
+#summer{
+    padding: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#summer img{
+    border: 1px solid grey;
+    width: 50%;
+}
+
+#summer button {
+    margin-top: 1rem;
+    padding: 2%;
+    color: grey;
+    border: 1px solid grey;
+}
+
+@media (max-width: 618px) {
+    #summer {
+        flex-direction: column-reverse;
+    }
+    #summer img {
+        width: 100%;
+    }
+}
+
+#men-fashion {
+    padding: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#men-fashion img {
+    width: 50%;
+    border: 1px solid grey;
+}
+
+#men-fashion button{
+    padding: 2%;
+    color: grey;
+    border: 1px solid grey;
+}
+
+
+@media (max-width: 900px) {
+    #men-fashion {
+        flex-direction: column;
+    }
+    #men-fashion img {
+        width: 90%;
+    }
+}
+
+#newsletter {
+    padding: 10%;
+}
+
+#shop {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5%;
+}
+
+#shop img {
+    border-radius: 5px;
+}
+
+#shop .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#shop p {
+    margin: 1rem 0;
+    font-weight: 800;
+}
+
+.categories, .categories2{
+    padding: 0% 5%;
+    margin: 5%;
+}
+
+#shop button {
+    padding: 0.2rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin: 0 20%;
+    margin-bottom: 3%;
+}
+
+.categories > h3, .categories2 > h3 {
+    text-decoration: underline;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card > img {
+    height: 90%;
+}
+
+@media (max-width: 750px) {
+    #shop {
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+}
+
+@media (max-width: 460px) {
+    #shop {
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+}
+
+#footer {
+    background-color: grey;
+    display: flex;
+    padding: 10%;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+    color: white;    
+    font-size: medium;
+}
+
+#footer h3{
+    text-decoration: overline;
+}
+
+#footer ul li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+@media (max-width: 484px) {
+    #footer {
+        flex-direction: column;
+    }
+    #footer ul li{
+        margin: 2px;
+    }
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    align-items: center;
+}
+
+iframe {
+    border-radius: 10%;
+}
+
+
